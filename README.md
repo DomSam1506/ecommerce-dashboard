@@ -40,11 +40,12 @@ Books Category Underperforming: Lowest revenue category, possibly dragging on in
 
 Supply Chain Opportunity: Supplier Wunsch Hagesnes stands out for strong sales, an ideal partner to scale with and grow.
 
+---
+
+---
 
 
-
-RECOMMENDATIONS 
-
+##  Recommendations
 
 
 Increase Profit Margins:  Investigate high-revenue products for cost inefficiencies → Eliminate low-margin bestsellers → Improve overall profitability.
