@@ -4,7 +4,57 @@ An interactive business intelligence dashboard built in Power BI to analyze sale
 ---
 
 ##   Story of the Project
-This personal project results from my curiosity and desire to learn the basics of data analysis. I first designed the tables and relationships in SQL. Then, I generated mock data using both Mockaroo and Python. I tried my best to make the data seem as realistic as possible but there were obvious limits and I could only generate for the last 3 years. There were a lot of issues and things I had to sort out either by learning online or trying a different way of thinking. Eventually, my tables were set up, and the queries were done. I used W3School's free SQL course to learn about more advanced functions like RANK() and CTEs. It was fascinating learning about these powerful tools. The final step was visualizing my queries using Power BI. This was the hardest part, as I was also learning Power BI for the first time. After several redesigns, issues, and frustrations, my dashboard was complete! Through this personal project, I have gained valuable skills on SQL advanced queries, Python data generation and storage and of course storytelling with data. I hope you enjoy the finished product, and thank you so much for your time.
+This project began as a personal challenge fueled by my curiosity and eagerness to learn the fundamentals of data analysis, from raw data to actionable insights. I started by designing the SQL database schema and relationships, then used a mix of Python and Mockaroo to generate mock data that mimicked a medium-sized e-commerce business. Some parts, like generating realistic product and order data, were more complex than expected, and I often had to pivot, debug, or research new approaches to get things working.
+
+Along the way, I picked up advanced SQL techniques like RANK() and CTEs using W3Schools' free course and applied them in real queries to uncover deeper insights. The final (and most challenging) step was building the Power BI dashboard. Since it was my first time using Power BI, it took several redesigns, a few setbacks, and a lot of persistence—but I’m proud of how it turned out.
+
+Through this experience, I’ve built skills in SQL, Python, and Power BI—but more importantly, I’ve learned how to troubleshoot creatively, communicate insights clearly, and see a data project through from start to finish. Thanks for checking it out!
+
+---
+
+---
+
+##  Goal
+The goal of this personal project was to gain practical, end-to-end experience with data analysis by working with mock data modeled after a medium-sized e-commerce business. Using Python, SQL, and Power BI, I simulated a real-world analytics workflow—extracting insights, identifying business challenges, and proposing data-driven recommendations. This project showcases my ability to turn structured data into strategic actions that could guide decisions in a fast-paced business environment.
+
+---
+
+---
+##  Executive Summary:
+
+This dashboard reveals a business with strong sales traction but struggling profitability. Despite over $2.25M in revenue across three years, profit margins are thin, and customer churn is accelerating. To transform top-line momentum into lasting growth, action is needed on pricing, retention, and product strategy.
+
+---
+---
+##  Key Insights:
+
+### Revenue ≠ Profit: September had the highest revenue but the lowest profit, possibly due to low-margin or heavily discounted products.
+Customer Churn Rising: 593 churned customers vs. 193 active, with very few high-value new customers recently.
+Tier 1 Customers Drive Value: Joey Rizelli alone contributes outsized revenue; others in Tier 1 likely share that potential.
+Profitability Misaligned with Sales: Products like car headlights outperform some top-selling electronics in profit.
+Inefficient Product Mix: Electronics sell best, but not all are profitable. Non-tech essentials are quietly delivering higher margins.
+Books Category Underperforming: Lowest revenue category, possibly dragging on inventory and lowering margins.
+Supply Chain Opportunity: Supplier Wunsch Hagesnes stands out for strong sales, an ideal partner to scale with and grow.
+High AOV ≠ High Profit: January’s high Average Order Value didn’t result in proportional profit gains. 
+
+
+RECOMMENDATIONS 
+
+
+
+Increase Profit Margins:  Investigate high-revenue products for cost inefficiencies → Eliminate low-margin bestsellers → Improve overall profitability.
+
+
+Retain High-Value Customers: Launch a loyalty program targeting Tier 1 clients → Boost repeat purchases → Grow revenue consistency.
+
+
+Refine Product Mix : Expand profitable non-tech items (e.g., car essentials) → Diversify beyond electronics → Stabilize profits across categories.
+
+
+Improve Supplier Deals: Renegotiate terms with low-margin, high-volume suppliers → Lower cost of goods → Widen profit margins.
+
+
+Control Discount Strategy : Limit deep discounts in peak revenue months → Preserve margins during high sales → Sustain profitability year-round.
 
 ---
 ---
@@ -12,12 +62,12 @@ This personal project results from my curiosity and desire to learn the basics o
 
 1. Download `ECOMMERCE PROJECT.pbix`
 2. Open with **Power BI Desktop**
-3. Use slicers, filters, and tabs to explore the dashboard pages:
-   - **Home Page with Recommendations**
+3. Use slicers, filters, and sliders to explore the dashboard pages:
    - **Sales Overview**
    - **Customer Insights**
    - **Product & Supplier**
    - **Profitability Analysis**
+4. View `EcommerceProject.sql` to see the queries that generated the visualizations (OPTIONAL)
    
 ---
 ---
