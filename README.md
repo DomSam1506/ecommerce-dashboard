@@ -33,7 +33,7 @@ The database follows a **3NF-compliant star schema** structure. Below is the log
 
 
 
-![ER Diagram]![Screenshot 2025-04-01 115532](https://github.com/user-attachments/assets/562d19f2-2fa3-4d88-aa8c-709346b1e421)
+[ER Diagram]![Screenshot 2025-04-01 115532](https://github.com/user-attachments/assets/562d19f2-2fa3-4d88-aa8c-709346b1e421)
 
 
 ---
