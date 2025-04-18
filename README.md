@@ -28,13 +28,20 @@ This dashboard reveals a business with strong sales traction but struggling prof
 ---
 ##  Key Insights:
 
-### Revenue ≠ Profit: September had the highest revenue but the lowest profit, possibly due to low-margin or heavily discounted products.
+Revenue ≠ Profit: September had the highest revenue but the lowest profit, possibly due to low-margin or heavily discounted products.
+
 Customer Churn Rising: 593 churned customers vs. 193 active, with very few high-value new customers recently.
+
 Tier 1 Customers Drive Value: Joey Rizelli alone contributes outsized revenue; others in Tier 1 likely share that potential.
+
 Profitability Misaligned with Sales: Products like car headlights outperform some top-selling electronics in profit.
+
 Inefficient Product Mix: Electronics sell best, but not all are profitable. Non-tech essentials are quietly delivering higher margins.
+
 Books Category Underperforming: Lowest revenue category, possibly dragging on inventory and lowering margins.
+
 Supply Chain Opportunity: Supplier Wunsch Hagesnes stands out for strong sales, an ideal partner to scale with and grow.
+
 High AOV ≠ High Profit: January’s high Average Order Value didn’t result in proportional profit gains. 
 
 
