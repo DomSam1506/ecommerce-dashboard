@@ -72,39 +72,39 @@ JOIN Products p ON od.ProductID = p.ProductID;
 
 
 
--- INDEXES
--- Index to speed up filtering by OrderStatus
+-- Indexes to Improve Performance of regularly queried fields
+
 CREATE INDEX idx_orders_status
 ON Orders(OrderStatus);
 
--- Index to optimize date-based grouping and aggregation
+
 CREATE INDEX idx_orders_orderdate 
 ON Orders(OrderDate);
 
--- Index to improve JOIN performance
+
 CREATE INDEX idx_orderdetails_orderid 
 ON OrderDetails(OrderID);
 
--- Covering index for revenue calculations (avoids table lookups)
+
 CREATE INDEX idx_orderdetails_revenue 
 ON OrderDetails(OrderID, PriceAtPOS, Quantity);
 
--- Index on OrderDetails to speed up joins & calculations
+
 CREATE INDEX idx_OrderDetails_ProductID 
 ON OrderDetails (ProductID);
 
 CREATE INDEX idx_OrderDetails_PriceQuantity 
 ON OrderDetails (PriceAtPOS, Quantity);
 
--- Index on Products table for faster join with OrderDetails
+
 CREATE INDEX idx_Products_SupplierID 
 ON Products (SupplierID);
 
--- Index on Suppliers to optimize join performance
+
 CREATE INDEX idx_Suppliers_SupplierID 
 ON Suppliers (SupplierID);
 
--- Index on CustomerID in the Orders table to optimize grouping and lookups
+
 CREATE INDEX idx_CustomerID 
 ON Orders(CustomerID);
 
