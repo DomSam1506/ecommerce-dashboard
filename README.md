@@ -2,6 +2,18 @@
 An interactive business intelligence dashboard built in Power BI to analyze sales, customer trends, product performance, and profitability over 3 years using SQL and Python-generated data.
 
 ---
+##  How to Explore
+
+1. View the Dashboard at: https://app.powerbi.com/view?r=eyJrIjoiNWNhYWVlMmYtOTA3NS00OGIzLTg2OWYtODlkYWRlYWIzZDA5IiwidCI6IjE4ZWM4YzczLTEyNTktNDkwMC1iNTFiLWU5N2ZiZmMzYTY5NiJ9
+2. Use slicers, filters, and sliders to explore the dashboard pages:
+   - **Sales Overview**
+   - **Customer Insights**
+   - **Product & Supplier**
+   - **Profitability Analysis**
+3. View `EcommerceProject.sql` to see the queries that generated the visualizations (OPTIONAL)
+   
+---
+---
 
 ##   Story of the Project
 This project began as a personal challenge fueled by my curiosity and eagerness to learn the fundamentals of data analysis, from raw data to actionable insights. I started by designing the SQL database schema and relationships, then used a mix of Python and Mockaroo to generate mock data that mimicked a medium-sized e-commerce business. Some parts, like generating realistic product and order data, were more complex than expected, and I often had to pivot, debug, or research new approaches to get things working.
@@ -63,18 +75,7 @@ Improve Supplier Deals: Renegotiate terms with low-margin, high-volume suppliers
 Control Discount Strategy : Limit deep discounts in peak revenue months → Preserve margins during high sales → Sustain profitability year-round.
 
 ---
----
-##  How to Explore
 
-1. View the Dashboard at: https://app.powerbi.com/view?r=eyJrIjoiNWNhYWVlMmYtOTA3NS00OGIzLTg2OWYtODlkYWRlYWIzZDA5IiwidCI6IjE4ZWM4YzczLTEyNTktNDkwMC1iNTFiLWU5N2ZiZmMzYTY5NiJ9
-2. Use slicers, filters, and sliders to explore the dashboard pages:
-   - **Sales Overview**
-   - **Customer Insights**
-   - **Product & Supplier**
-   - **Profitability Analysis**
-3. View `EcommerceProject.sql` to see the queries that generated the visualizations (OPTIONAL)
-   
----
 ---
 
 ##  SQL Table Relationships
